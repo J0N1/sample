@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "object",
+    "data",
+    "appearance"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "object": {
+      "type": "object",
+      "required": [
+        "type",
+        "subtype"
+      ],
+      "properties": {
+        "type": {
+          "const": "CHART"
+        },
+        "subtype": {
+          "enum": [
+            "LINE",
+            "LINE_MARKERS"
+          ]
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "properties": {
+        "position": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "width": {
+              "type": "number"
+            },
+            "height": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "series": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "points": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "category": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "category",
+                    "value"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "appearance": {
+      "type": "object",
+      "properties": {
+        "common": {
+          "type": "object"
+        },
+        "axes": {
+          "type": "object"
+        },
+        "special": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

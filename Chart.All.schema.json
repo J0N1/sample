@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PowerPoint Chart (All Families)",
+  "oneOf": [
+    {
+      "$ref": "Chart.Pie.schema.json"
+    },
+    {
+      "$ref": "Chart.Bar.schema.json"
+    },
+    {
+      "$ref": "Chart.Line.schema.json"
+    },
+    {
+      "$ref": "Chart.Scatter.schema.json"
+    },
+    {
+      "$ref": "Chart.Bubble.schema.json"
+    }
+  ]
+}

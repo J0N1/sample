@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "LINE_MARKERS"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Sales",
+        "points": [
+          {
+            "category": "2025-01-01",
+            "value": 120
+          },
+          {
+            "category": "2025-02-01",
+            "value": 135
+          },
+          {
+            "category": "2025-03-01",
+            "value": 150
+          },
+          {
+            "category": "2025-04-01",
+            "value": 160
+          },
+          {
+            "category": "2025-05-01",
+            "value": 158
+          },
+          {
+            "category": "2025-06-01",
+            "value": 170
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Monthly Sales (Line with Markers)",
+        "fontSize": 14,
+        "bold": true
+      },
+      "legend": {
+        "show": false
+      },
+      "dataLabels": {
+        "show": false
+      },
+      "palette": [
+        "#4472C4"
+      ]
+    },
+    "axes": {
+      "category": {
+        "scale": "Time",
+        "min": "2025-01-01",
+        "max": "2025-12-31",
+        "majorUnit": 1,
+        "majorUnitBase": "Month",
+        "gridlines": "Major",
+        "tickLabelAngle": 0,
+        "dateFormat": "MMM"
+      },
+      "value": {
+        "min": 0,
+        "max": 200,
+        "majorUnit": 50,
+        "minorUnit": 10,
+        "gridlines": "Both",
+        "numberFormat": "0"
+      }
+    },
+    "special": {
+      "markers": {
+        "show": true,
+        "style": "Circle",
+        "size": 6
+      },
+      "smoothed": false
+    }
+  }
+}
