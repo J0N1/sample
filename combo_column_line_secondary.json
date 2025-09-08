@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "COMBO"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Revenue",
+        "points": [
+          {
+            "category": "Q1",
+            "value": 120
+          },
+          {
+            "category": "Q2",
+            "value": 140
+          },
+          {
+            "category": "Q3",
+            "value": 160
+          },
+          {
+            "category": "Q4",
+            "value": 180
+          }
+        ]
+      },
+      {
+        "name": "Margin",
+        "points": [
+          {
+            "category": "Q1",
+            "value": 20
+          },
+          {
+            "category": "Q2",
+            "value": 25
+          },
+          {
+            "category": "Q3",
+            "value": 22
+          },
+          {
+            "category": "Q4",
+            "value": 24
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "legend": {
+        "show": true
+      }
+    },
+    "axes": {
+      "value": {
+        "min": 0,
+        "max": 200,
+        "majorUnit": 50,
+        "gridlines": "Major"
+      },
+      "secondary": {
+        "enabled": true
+      }
+    },
+    "special": {
+      "seriesOverrides": [
+        {
+          "seriesIndex": 0,
+          "chartType": "COLUMN_CLUSTERED",
+          "axis": "Primary"
+        },
+        {
+          "seriesIndex": 1,
+          "chartType": "LINE_MARKERS",
+          "axis": "Secondary",
+          "markers": {
+            "show": true,
+            "style": "Circle",
+            "size": 4
+          }
+        }
+      ],
+      "gapWidth": 150,
+      "overlap": 0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "DOUGHNUT"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 420,
+      "height": 300
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Mix",
+        "points": [
+          {
+            "category": "Americas",
+            "value": 45
+          },
+          {
+            "category": "EMEA",
+            "value": 30
+          },
+          {
+            "category": "APAC",
+            "value": 25
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Doughnut Example"
+      },
+      "legend": {
+        "show": true
+      }
+    },
+    "special": {
+      "doughnutHoleSize": 50
+    }
+  }
+}

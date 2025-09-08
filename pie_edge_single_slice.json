@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "PIE"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 360,
+      "height": 280
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Only",
+        "points": [
+          {
+            "category": "Only",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "legend": {
+        "show": false
+      },
+      "dataLabels": {
+        "show": true,
+        "content": "Category,Value"
+      }
+    },
+    "special": {}
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "PIE"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 420,
+      "height": 300
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Mix",
+        "points": [
+          {
+            "category": "Americas",
+            "value": 45
+          },
+          {
+            "category": "EMEA",
+            "value": 30
+          },
+          {
+            "category": "APAC",
+            "value": 25
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Market Share",
+        "fontSize": 14,
+        "bold": true
+      },
+      "legend": {
+        "show": true,
+        "position": "Right"
+      },
+      "dataLabels": {
+        "show": true,
+        "content": "Category,Percentage",
+        "numberFormat": "0%"
+      },
+      "palette": [
+        "#4472C4",
+        "#ED7D31",
+        "#A5A5A5"
+      ]
+    },
+    "special": {
+      "explode": [
+        0,
+        15,
+        0
+      ]
+    }
+  }
+}

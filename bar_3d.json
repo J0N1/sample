@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "BAR_3D"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Revenue",
+        "points": [
+          {
+            "category": "Americas",
+            "value": 420
+          },
+          {
+            "category": "EMEA",
+            "value": 330
+          },
+          {
+            "category": "APAC",
+            "value": 250
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "3D Bar"
+      }
+    },
+    "axes": {
+      "value": {
+        "min": 0,
+        "max": 500,
+        "majorUnit": 100
+      }
+    },
+    "special": {
+      "gapWidth": 180,
+      "overlap": 0,
+      "enable3D": true
+    }
+  }
+}

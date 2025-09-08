@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "AREA_STACKED"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "A",
+        "points": [
+          {
+            "category": "Jan",
+            "value": 10
+          },
+          {
+            "category": "Feb",
+            "value": 12
+          },
+          {
+            "category": "Mar",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "name": "B",
+        "points": [
+          {
+            "category": "Jan",
+            "value": 8
+          },
+          {
+            "category": "Feb",
+            "value": 9
+          },
+          {
+            "category": "Mar",
+            "value": 11
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "legend": {
+        "show": true
+      }
+    },
+    "axes": {
+      "value": {
+        "min": 0,
+        "max": 40,
+        "majorUnit": 10,
+        "gridlines": "Major"
+      }
+    },
+    "special": {
+      "dropLines": true
+    }
+  }
+}

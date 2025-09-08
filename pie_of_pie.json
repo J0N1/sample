@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "PIE_OF_PIE"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 520,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Mix",
+        "points": [
+          {
+            "category": "A",
+            "value": 60
+          },
+          {
+            "category": "B",
+            "value": 20
+          },
+          {
+            "category": "C",
+            "value": 10
+          },
+          {
+            "category": "D",
+            "value": 5
+          },
+          {
+            "category": "E",
+            "value": 5
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Pie of Pie"
+      },
+      "legend": {
+        "show": true
+      }
+    },
+    "special": {
+      "splitBy": "Value",
+      "splitValue": 8,
+      "secondPlotSize": 75
+    }
+  }
+}

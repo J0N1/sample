@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "BAR_STACKED"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Prod A",
+        "points": [
+          {
+            "category": "US",
+            "value": 120
+          },
+          {
+            "category": "EU",
+            "value": 140
+          },
+          {
+            "category": "APAC",
+            "value": 110
+          }
+        ]
+      },
+      {
+        "name": "Prod B",
+        "points": [
+          {
+            "category": "US",
+            "value": 80
+          },
+          {
+            "category": "EU",
+            "value": 60
+          },
+          {
+            "category": "APAC",
+            "value": 90
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "legend": {
+        "show": true,
+        "position": "Bottom"
+      }
+    },
+    "axes": {
+      "value": {
+        "min": 0,
+        "max": 250,
+        "majorUnit": 50,
+        "gridlines": "Major"
+      }
+    },
+    "special": {
+      "gapWidth": 120,
+      "overlap": 100
+    }
+  }
+}

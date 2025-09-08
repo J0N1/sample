@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "COLUMN_CLUSTERED"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Big",
+        "points": [
+          {
+            "category": "A",
+            "value": 1000000000
+          },
+          {
+            "category": "B",
+            "value": 2500000000
+          },
+          {
+            "category": "C",
+            "value": 750000000
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Large Numbers"
+      },
+      "dataLabels": {
+        "show": true,
+        "content": "Value",
+        "numberFormat": "$#,##0,,"
+      }
+    },
+    "axes": {
+      "value": {
+        "min": 0,
+        "max": 3000000000,
+        "majorUnit": 500000000,
+        "gridlines": "Major",
+        "numberFormat": "$#,##0,,"
+      }
+    },
+    "special": {
+      "gapWidth": 150,
+      "overlap": 0
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "BAR_CLUSTERED"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Revenue",
+        "points": [
+          {
+            "category": "Americas",
+            "value": 420
+          },
+          {
+            "category": "EMEA",
+            "value": 330
+          },
+          {
+            "category": "APAC",
+            "value": 250
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Revenue by Region"
+      },
+      "dataLabels": {
+        "show": true,
+        "content": "Value"
+      }
+    },
+    "axes": {
+      "value": {
+        "min": 200,
+        "max": 500,
+        "majorUnit": 50,
+        "minorUnit": 10,
+        "gridlines": "Both"
+      }
+    },
+    "special": {
+      "gapWidth": 150,
+      "overlap": 0
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "LINE"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Sparse",
+        "points": [
+          {
+            "category": "2025-01-01",
+            "value": 100
+          },
+          {
+            "category": "2025-03-01",
+            "value": 130
+          },
+          {
+            "category": "2025-06-01",
+            "value": 160
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Sparse Dates"
+      }
+    },
+    "axes": {
+      "category": {
+        "scale": "Time",
+        "min": "2025-01-01",
+        "max": "2025-12-31",
+        "majorUnit": 1,
+        "majorUnitBase": "Month"
+      },
+      "value": {
+        "min": 0,
+        "max": 200,
+        "majorUnit": 50
+      }
+    },
+    "special": {
+      "markers": {
+        "show": true,
+        "style": "Diamond",
+        "size": 6
+      }
+    }
+  }
+}

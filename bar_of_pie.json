@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "BAR_OF_PIE"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 520,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Mix",
+        "points": [
+          {
+            "category": "A",
+            "value": 60
+          },
+          {
+            "category": "B",
+            "value": 20
+          },
+          {
+            "category": "C",
+            "value": 10
+          },
+          {
+            "category": "D",
+            "value": 5
+          },
+          {
+            "category": "E",
+            "value": 5
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Bar of Pie"
+      },
+      "legend": {
+        "show": true
+      }
+    },
+    "special": {
+      "splitBy": "Position",
+      "splitPosition": 3,
+      "secondPlotSize": 70
+    }
+  }
+}

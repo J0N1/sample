@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "COLUMN_CLUSTERED"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Variance",
+        "points": [
+          {
+            "category": "Q1",
+            "value": -50
+          },
+          {
+            "category": "Q2",
+            "value": 30
+          },
+          {
+            "category": "Q3",
+            "value": -20
+          },
+          {
+            "category": "Q4",
+            "value": 40
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "dataLabels": {
+        "show": true,
+        "content": "Value"
+      }
+    },
+    "axes": {
+      "value": {
+        "min": -60,
+        "max": 60,
+        "majorUnit": 20,
+        "gridlines": "Both"
+      }
+    },
+    "special": {
+      "gapWidth": 200,
+      "overlap": 0,
+      "invertIfNegative": true
+    }
+  }
+}

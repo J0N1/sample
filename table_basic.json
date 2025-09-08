@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "TABLE"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 420,
+      "width": 640,
+      "height": 240
+    }
+  },
+  "data": {
+    "headers": [
+      "Region",
+      "Revenue",
+      "Growth"
+    ],
+    "rows": [
+      [
+        "Americas",
+        420,
+        0.12
+      ],
+      [
+        "EMEA",
+        330,
+        0.08
+      ],
+      [
+        "APAC",
+        250,
+        0.1
+      ]
+    ]
+  },
+  "appearance": {
+    "style": "MediumStyle2Accent1",
+    "bandedRows": true,
+    "numberFormats": {
+      "1": "$#,##0",
+      "2": "0%"
+    },
+    "alignment": {
+      "0": "Left",
+      "1": "Right",
+      "2": "Right"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "BUBBLE"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Bubbles",
+        "points": [
+          {
+            "x": 1,
+            "y": 10,
+            "size": 20
+          },
+          {
+            "x": 3,
+            "y": 25,
+            "size": 40
+          },
+          {
+            "x": 5,
+            "y": 18,
+            "size": 15
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Bubble Chart"
+      }
+    },
+    "axes": {
+      "category": {
+        "min": 0,
+        "max": 6,
+        "majorUnit": 1,
+        "gridlines": "Major"
+      },
+      "value": {
+        "min": 0,
+        "max": 30,
+        "majorUnit": 10,
+        "gridlines": "Major"
+      }
+    },
+    "special": {
+      "bubbleScale": 80,
+      "showNegativeBubbles": false
+    }
+  }
+}

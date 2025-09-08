@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "RADAR_FILLED"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Team A",
+        "points": [
+          {
+            "category": "Speed",
+            "value": 80
+          },
+          {
+            "category": "Quality",
+            "value": 70
+          },
+          {
+            "category": "Cost",
+            "value": 60
+          },
+          {
+            "category": "Risk",
+            "value": 50
+          },
+          {
+            "category": "Scope",
+            "value": 75
+          }
+        ]
+      },
+      {
+        "name": "Team B",
+        "points": [
+          {
+            "category": "Speed",
+            "value": 70
+          },
+          {
+            "category": "Quality",
+            "value": 65
+          },
+          {
+            "category": "Cost",
+            "value": 55
+          },
+          {
+            "category": "Risk",
+            "value": 60
+          },
+          {
+            "category": "Scope",
+            "value": 70
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "legend": {
+        "show": true
+      }
+    },
+    "special": {
+      "radarStyle": "Filled"
+    }
+  }
+}

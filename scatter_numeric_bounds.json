@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "SCATTER"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "Throughput",
+        "points": [
+          {
+            "x": 0,
+            "y": 10
+          },
+          {
+            "x": 5,
+            "y": 22
+          },
+          {
+            "x": 10,
+            "y": 34
+          },
+          {
+            "x": 15,
+            "y": 41
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Scatter (X/Y)"
+      },
+      "legend": {
+        "show": false
+      }
+    },
+    "axes": {
+      "category": {
+        "min": 0,
+        "max": 20,
+        "majorUnit": 5,
+        "minorUnit": 1,
+        "gridlines": "Both",
+        "numberFormat": "0"
+      },
+      "value": {
+        "min": 0,
+        "max": 50,
+        "majorUnit": 10,
+        "minorUnit": 2,
+        "gridlines": "Both",
+        "numberFormat": "0"
+      }
+    },
+    "special": {
+      "markers": {
+        "show": true,
+        "style": "Circle",
+        "size": 5
+      }
+    }
+  }
+}

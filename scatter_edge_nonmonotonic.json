@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "object": {
+    "type": "CHART",
+    "subtype": "SCATTER"
+  },
+  "layout": {
+    "position": {
+      "x": 72,
+      "y": 72,
+      "width": 560,
+      "height": 320
+    }
+  },
+  "data": {
+    "series": [
+      {
+        "name": "NonMonotonic",
+        "points": [
+          {
+            "x": 10,
+            "y": 10
+          },
+          {
+            "x": 5,
+            "y": 20
+          },
+          {
+            "x": 15,
+            "y": 5
+          },
+          {
+            "x": 12,
+            "y": 18
+          }
+        ]
+      }
+    ]
+  },
+  "appearance": {
+    "common": {
+      "title": {
+        "text": "Scatter Non-Monotonic"
+      }
+    },
+    "axes": {
+      "category": {
+        "min": 0,
+        "max": 20,
+        "majorUnit": 5
+      },
+      "value": {
+        "min": 0,
+        "max": 25,
+        "majorUnit": 5
+      }
+    },
+    "special": {
+      "markers": {
+        "show": true
+      }
+    }
+  }
+}
